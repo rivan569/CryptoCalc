@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897378975033",
+    "project_id": "cryptocalculator-19b0d",
+    "storage_bucket": "cryptocalculator-19b0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897378975033:android:448752fc99c9204b18bce8",
+        "android_client_info": {
+          "package_name": "com.example.cryptocalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897378975033-he5c07ljc5820u8ltd7fp5lh8j46f8om.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbj9hHMsRWEAQwIT-_n00N8tZckngu4js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897378975033-he5c07ljc5820u8ltd7fp5lh8j46f8om.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
