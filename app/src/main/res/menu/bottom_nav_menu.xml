@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home_iccon"
+        android:title="Home" />
+    <item
+        android:id="@+id/moneyFragment"
+        android:icon="@drawable/money_icon"
+        android:title="Currency" />
+    <item
+        android:id="@+id/graphFragment"
+        android:icon="@drawable/graph_icon"
+        android:title="Graph" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/settings"
+        android:title="Settings" />
+</menu>

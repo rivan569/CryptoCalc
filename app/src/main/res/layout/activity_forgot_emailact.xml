@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DominantColor"
+    android:padding="20dp"
+    tools:context=".ForgotPasswordActivity">
+
+
+    <TextView
+        android:id="@+id/reset_email"
+        style="@style/SubTitle"
+        android:layout_width="403dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/comfortaabold"
+        android:text="CHANGE YOUR EMAIL"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <ImageView
+        android:layout_width="333dp"
+        android:layout_height="259dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-1dp"
+        android:contentDescription="logo"
+        android:src="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="-30dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Change_email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="372dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="430dp"
+        android:hint="New Email"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/Beige"
+        app:hintTextColor="@color/Beige"
+        app:startIconDrawable="@drawable/ic_email"
+        app:startIconTint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="322dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enter_email2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="372dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="350dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/Beige"
+        app:hintTextColor="@color/Beige"
+        app:startIconDrawable="@drawable/ic_email"
+        app:startIconTint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="322dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enter_pass1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/res_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/change_email1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <TextView
+        android:id="@+id/tv_back_login"
+        style="@style/SubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/back_to_log_in"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

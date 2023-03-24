@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DominantColor"
+    android:padding="20dp"
+    tools:context=".Loginpage">
+
+
+    <ImageView
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="logoagain"
+        android:src="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="-30dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="501dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/log_in"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/Beige"
+        android:textColorLink="@color/Beige"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/signup"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/log_email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/gradient"
+        android:backgroundTint="@android:color/transparent"
+        android:hint="@string/email_log"
+        android:textColorHint="@color/white"
+        android:visibility="visible"
+        app:boxStrokeColor="@color/Beige"
+        app:endIconTint="@color/Beige"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:hintTextColor="@color/Beige"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        app:startIconTint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="322dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enter_email"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:backgroundTint="@android:color/transparent"
+            android:cursorVisible="true"
+            android:filterTouchesWhenObscured="false"
+            android:textColorHighlight="@color/Beige"
+            android:textColorLink="@color/Beige"
+            android:textCursorDrawable="@null"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/log_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:hint="@string/pass_log"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/Beige"
+        app:hintTextColor="@color/Beige"
+        app:layout_constraintTop_toBottomOf="@+id/log_email"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/white"
+        app:startIconDrawable="@drawable/ic_circle_account"
+        app:startIconTint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enter_pass"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@android:color/transparent"
+            android:cursorVisible="true"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@null"
+            tools:ignore="MissingConstraints" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/forgot_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="@string/forgot_pw"
+        android:textAlignment="textEnd"
+        android:textColor="@color/Accent"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/forgot_em"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:text="@string/forgot_email"
+        android:textAlignment="textEnd"
+        android:textColor="@color/Accent"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
